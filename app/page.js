@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import LocationsSection from "@/components/LocationsSection";
-import LifeAtSalesforce from "@/components/LifeAtSalesforce";
+import LifeAtTor from "@/components/LifeAtTor";
 import BenefitsSection from "@/components/BenefitsSection";
 import DiversitySection from "@/components/DiversitySection";
 import JobsSection from "@/components/JobsSection";
@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <LocationsSection />
-      <LifeAtSalesforce />
+      <LifeAtTor />
       <BenefitsSection />
       <TestimonialsSection />
       <DiversitySection />

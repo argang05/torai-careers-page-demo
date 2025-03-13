@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 // Hero section component for the careers page
 export default function HeroSection() {
   return (
-    <section className="relative h-[80vh] overflow-hidden">
+    <section className="relative h-[50vh] sm:h-[80vh] overflow-hidden">
       {/* Background image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -17,7 +17,7 @@ export default function HeroSection() {
       />
       
       {/* Content overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#0D1D45] to-transparent" />
       
       {/* Hero content */}
       <div className="relative h-full container mx-auto px-4 flex flex-col justify-center">
@@ -28,16 +28,16 @@ export default function HeroSection() {
           className="max-w-2xl text-white"
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            Join Salesforce India
+            Join Tor India
           </h1>
           <p className="text-xl md:text-2xl mb-8">
             Be part of a team that&apos;s changing the way the world does business
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg">
+            <Button className="bg-[#FF5733] hover:bg-[#ff583392] text-white px-8 py-6 text-lg cursor-pointer">
               Explore Jobs
             </Button>
-            <Button variant="outline" className="bg-transparent border-white text-white hover:bg-white/10 px-8 py-6 text-lg">
+            <Button variant="outline" className="bg-transparent border-white text-white hover:bg-[#E0E1DD] px-8 py-6 text-lg cursor-pointer">
               Learn About Us
             </Button>
           </div>

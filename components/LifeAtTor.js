@@ -5,15 +5,15 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-// Life at Salesforce section component for the careers page
-export default function LifeAtSalesforce() {
-  // Data for life at Salesforce
-  const lifeAtSalesforceData = [
+// Life at Tor section component for the careers page
+export default function LifeAtTor() {
+  // Data for life at Tor
+  const lifeAtTorData = [
     {
       id: "culture",
       title: "Our Culture",
       image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      description: "At Salesforce, we believe business is the greatest platform for change. Our culture is built on our core values: Trust, Customer Success, Innovation, and Equality."
+      description: "At Tor, we believe business is the greatest platform for change. Our culture is built on our core values: Trust, Customer Success, Innovation, and Equality."
     },
     {
       id: "innovation",
@@ -52,7 +52,7 @@ export default function LifeAtSalesforce() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-            Life at Salesforce India
+            Life at Tor India
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Experience a workplace culture that celebrates innovation, equality, and giving back
@@ -61,7 +61,7 @@ export default function LifeAtSalesforce() {
 
         {/* Desktop view - Grid */}
         <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-          {lifeAtSalesforceData.map((item, index) => (
+          {lifeAtTorData?.map((item, index) => (
             <motion.div
               key={item.id}
               initial={{ opacity: 0, y: 20 }}
@@ -90,7 +90,7 @@ export default function LifeAtSalesforce() {
         <div className="md:hidden">
           <Carousel className="w-full">
             <CarouselContent>
-              {lifeAtSalesforceData.map((item) => (
+              {lifeAtTorData.map((item) => (
                 <CarouselItem key={item.id}>
                   <Card className="overflow-hidden h-full">
                     <div className="h-48 overflow-hidden">
@@ -116,7 +116,7 @@ export default function LifeAtSalesforce() {
         </div>
 
         <div className="text-center mt-12">
-          <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg">
+          <Button className="bg-[#FF5733] hover:bg-[#ff5833b9] text-white px-8 py-6 text-lg cursor-pointer">
             Learn More About Our Culture
           </Button>
         </div>

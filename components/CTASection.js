@@ -2,11 +2,12 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 // Call to Action section component for the careers page
 export default function CTASection() {
   return (
-    <section className="py-20 bg-blue-600 text-white">
+    <section className="py-20 bg-[#02040F] text-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <motion.div
@@ -20,13 +21,15 @@ export default function CTASection() {
               Ready to make an impact?
             </h2>
             <p className="text-xl text-blue-100 mb-6">
-              Join Salesforce India and be part of a team that&apos;s changing the way the world does business. We&apos;re looking for talented individuals who are passionate about innovation and customer success.
+              Join Tor India and be part of a team that&apos;s changing the way the world does business. We&apos;re looking for talented individuals who are passionate about innovation and customer success.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-6 text-lg">
+              <Link href="#jobs">
+              <Button className="bg-white text-[#0D1D45] hover:bg-blue-50 px-8 py-6 text-lg cursor-pointer">
                 Explore Open Positions
-              </Button>
-              <Button variant="outline" className="border-white text-white hover:bg-blue-700 px-8 py-6 text-lg">
+                </Button>
+              </Link>
+              <Button variant="outline" className="border-white text-white bg-[#FF5733] hover:bg-[#ff5833b9] cursor-pointer px-8 py-6 text-lg">
                 Join Our Talent Network
               </Button>
             </div>
@@ -40,7 +43,7 @@ export default function CTASection() {
           >
             <img 
               src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-              alt="Salesforce team members" 
+              alt="Tor team members" 
               className="rounded-lg shadow-xl"
             />
           </motion.div>

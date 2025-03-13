@@ -13,19 +13,19 @@ export default function DiversitySection() {
       id: "equality",
       title: "Equality for All",
       description: "We&apos;re committed to building a workplace that reflects the diverse communities we serve and where everyone feels valued, heard, and empowered to succeed.",
-      icon: <Users className="h-10 w-10 text-blue-600" />
+      icon: <Users className="h-10 w-10 text-[#FF5733]" />
     },
     {
       id: "global",
       title: "Global Representation",
       description: "We&apos;re focused on increasing representation of women, underrepresented minorities, and people from diverse backgrounds at all levels of our company.",
-      icon: <Globe className="h-10 w-10 text-blue-600" />
+      icon: <Globe className="h-10 w-10 text-[#FF5733]" />
     },
     {
       id: "inclusion",
       title: "Inclusive Culture",
       description: "Our employee resource groups (ERGs) provide community, mentorship, and professional development opportunities for employees from all backgrounds.",
-      icon: <Heart className="h-10 w-10 text-blue-600" />
+      icon: <Heart className="h-10 w-10 text-[#FF5733]" />
     }
   ];
 
@@ -43,7 +43,7 @@ export default function DiversitySection() {
             Diversity & Inclusion
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            At Salesforce, equality is a core value. We believe that businesses can be powerful platforms for social change.
+            At Tor, equality is a core value. We believe that businesses can be powerful platforms for social change.
           </p>
         </motion.div>
 
@@ -97,7 +97,7 @@ export default function DiversitySection() {
             <p className="text-gray-600 mb-6">
               Our commitment to equality extends beyond our walls. We actively work with our partners, customers, and communities to advance equality for all.
             </p>
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+            <Button className="bg-[#FF5733] hover:bg-[#ff5833b9] cursor-pointer text-white">
               Learn More About Our Equality Initiatives
             </Button>
           </motion.div>

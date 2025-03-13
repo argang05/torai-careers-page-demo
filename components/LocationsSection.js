@@ -21,7 +21,7 @@ export default function LocationsSection() {
     {
       id: "hyderabad",
       name: "Hyderabad",
-      image: "https://images.unsplash.com/photo-1630136024536-4a5ba1d3cb99?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "https://images.unsplash.com/photo-1551161242-b5af797b7233?q=80&w=2051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       description: "Our Hyderabad center focuses on product development, customer success, and global support functions.",
       address: "Raheja Mindspace IT Park, HITEC City, Hyderabad"
     },
@@ -97,7 +97,7 @@ export default function LocationsSection() {
                     <MapPin className="h-5 w-5 mt-0.5 flex-shrink-0" />
                     <span>{location.address}</span>
                   </div>
-                  <Button variant="outline" className="w-full">View Jobs</Button>
+                  <Button variant="outline" className="w-full bg-[#FF5733] hover:bg-[#ff5833b9] cursor-pointer text-[#F5F5F5] hover:text-[#F5F5F5]">View Jobs</Button>
                 </CardContent>
               </Card>
             </motion.div>

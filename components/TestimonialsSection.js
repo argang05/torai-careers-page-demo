@@ -12,7 +12,7 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       id: "testimonial1",
-      quote: "Working at Salesforce has been the most rewarding experience of my career. The culture of innovation, the focus on customer success, and the opportunities for growth are unparalleled.",
+      quote: "Working at Tor has been the most rewarding experience of my career. The culture of innovation, the focus on customer success, and the opportunities for growth are unparalleled.",
       name: "Priya Sharma",
       title: "Senior Software Engineer",
       location: "Bangalore",
@@ -20,7 +20,7 @@ export default function TestimonialsSection() {
     },
     {
       id: "testimonial2",
-      quote: "The best thing about Salesforce is the people. I&apos;m surrounded by brilliant minds who challenge me to grow every day. The company truly lives its values of trust, customer success, innovation, and equality.",
+      quote: "The best thing about Tor is the people. I&apos;m surrounded by brilliant minds who challenge me to grow every day. The company truly lives its values of trust, customer success, innovation, and equality.",
       name: "Rahul Patel",
       title: "Product Manager",
       location: "Hyderabad",
@@ -28,7 +28,7 @@ export default function TestimonialsSection() {
     },
     {
       id: "testimonial3",
-      quote: "Salesforce has given me the opportunity to work on cutting-edge technology while making a positive impact on our customers and communities. The work-life balance and benefits are amazing too!",
+      quote: "Tor has given me the opportunity to work on cutting-edge technology while making a positive impact on our customers and communities. The work-life balance and benefits are amazing too!",
       name: "Ananya Desai",
       title: "Solution Architect",
       location: "Mumbai",
@@ -50,7 +50,7 @@ export default function TestimonialsSection() {
             Hear from Our Team
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our employees share their experiences working at Salesforce India
+            Our employees share their experiences working at Tor India
           </p>
         </motion.div>
 
@@ -68,7 +68,7 @@ export default function TestimonialsSection() {
                 <Card className="h-full hover:shadow-lg transition-shadow duration-300">
                   <CardContent className="p-6">
                     <div className="flex justify-center mb-6">
-                      <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-blue-600">
+                      <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-[#0D1D45]">
                         <img 
                           src={testimonial.image} 
                           alt={testimonial.name} 
@@ -76,7 +76,7 @@ export default function TestimonialsSection() {
                         />
                       </div>
                     </div>
-                    <div className="flex justify-center mb-4 text-blue-600">
+                    <div className="flex justify-center mb-4 text-[#FF5733]">
                       <Quote className="h-8 w-8" />
                     </div>
                     <p className="text-gray-600 mb-6 text-center italic">
@@ -103,7 +103,7 @@ export default function TestimonialsSection() {
                   <Card className="h-full">
                     <CardContent className="p-6">
                       <div className="flex justify-center mb-6">
-                        <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-blue-600">
+                        <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-[#0D1D45]">
                           <img 
                             src={testimonial.image} 
                             alt={testimonial.name} 
@@ -111,7 +111,7 @@ export default function TestimonialsSection() {
                           />
                         </div>
                       </div>
-                      <div className="flex justify-center mb-4 text-blue-600">
+                      <div className="flex justify-center mb-4 text-[#FF5733]">
                         <Quote className="h-8 w-8" />
                       </div>
                       <p className="text-gray-600 mb-6 text-center italic">
