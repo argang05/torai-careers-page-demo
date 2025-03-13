@@ -71,13 +71,16 @@ export default function JobsSection() {
 
         {/* Job categories */}
         <Tabs defaultValue="all" className="mb-10" onValueChange={setSelectedTab}>
-          <TabsList className="grid grid-cols-2 md:grid-cols-5 gap-2 bg-[#0D1D45] text-[#F5F5F5]">
-            <TabsTrigger value="all">All Jobs</TabsTrigger>
-            <TabsTrigger value="engineering">Engineering</TabsTrigger>
-            <TabsTrigger value="sales">Sales</TabsTrigger>
-            <TabsTrigger value="product">Product & Design</TabsTrigger>
-            <TabsTrigger value="customer">Customer Success</TabsTrigger>
+          <TabsList className="flex w-full bg-[#0D1D45] text-[#F5F5F5] px-4 py-4 sm:py-4 rounded-lg gap-4">
+            <div className="flex overflow-x-auto scrollbar-hide space-x-2 py-4">
+              <TabsTrigger value="all" className="flex-shrink-0 px-4 py-2">All Jobs</TabsTrigger>
+              <TabsTrigger value="engineering" className="flex-shrink-0 px-4 py-2">Engineering</TabsTrigger>
+              <TabsTrigger value="sales" className="flex-shrink-0 px-4 py-2">Sales</TabsTrigger>
+              <TabsTrigger value="product" className="flex-shrink-0 px-4 py-2">Product & Design</TabsTrigger>
+              <TabsTrigger value="customer" className="flex-shrink-0 px-4 py-2">Customer Success</TabsTrigger>
+            </div>
           </TabsList>
+
 
           <TabsContent value={selectedTab} className="mt-6">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

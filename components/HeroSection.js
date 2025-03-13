@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 // Hero section component for the careers page
 export default function HeroSection() {
   return (
-    <section className="relative h-[50vh] sm:h-[80vh] overflow-hidden">
+    <section className="relative h-[60vh] sm:h-[80vh] overflow-hidden">
       {/* Background image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
