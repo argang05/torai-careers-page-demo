@@ -1,6 +1,6 @@
-# Salesforce Careers Page
+# Tor.ai Careers Page
 
-We've created a **Salesforce Careers Page** using **Next.js, Shadcn UI, and Tailwind CSS**. The page includes the following components:
+We've created a **Tor.ai Careers Page** using **Next.js, Shadcn UI, and Tailwind CSS**. The page includes the following components:
 
 ## 📌 Navbar  
 A responsive navigation bar with links to different sections of the page.
