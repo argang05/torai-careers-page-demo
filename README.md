@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Salesforce Careers Page
 
-## Getting Started
+We've created a **Salesforce Careers Page** using **Next.js, Shadcn UI, and Tailwind CSS**. The page includes the following components:
 
-First, run the development server:
+## 📌 Navbar  
+A responsive navigation bar with links to different sections of the page.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🎯 Hero Section  
+A visually appealing **hero section** with a background image, heading, and call-to-action buttons.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📍 Locations Section  
+A section showcasing **Salesforce's office locations in India** with images and descriptions.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🏢 Life at Salesforce  
+A section highlighting the **culture and values** at Salesforce with:  
+- **Grid layout** for desktop  
+- **Carousel** for mobile  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎁 Benefits Section  
+A section showcasing the **benefits and perks** of working at Salesforce with **animated cards**.
 
-## Learn More
+## 💬 Testimonials Section  
+A section featuring **testimonials from Salesforce employees** with:  
+- **Grid layout** for desktop  
+- **Carousel** for mobile  
 
-To learn more about Next.js, take a look at the following resources:
+## 🌍 Diversity Section  
+A section highlighting **Salesforce's commitment to diversity and inclusion**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💼 Jobs Section  
+A section displaying **open positions** with **search and filter functionality**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Call-To-Action Section  
+A **CTA section** encouraging visitors to explore job opportunities.
 
-## Deploy on Vercel
+## 🔗 Footer  
+A comprehensive footer with links to various resources and **social media**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🖥️ Responsiveness & Animations  
+- Fully **responsive**, with different layouts for **desktop and mobile views**.  
+- Added **animations** using **Framer Motion** to enhance the user experience.  
+
+The design is **inspired by Salesforce's careers page**, with a focus on **visual appeal and interactivity**.  
+We've used **high-quality images from Unsplash** to create a **professional look and feel**.
+
+---
+
+### 🔗 View the Careers Page  
+Open a browser and navigate to:  
+👉 **[http://localhost:3000](http://localhost:3000)**  
