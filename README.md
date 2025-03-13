@@ -49,4 +49,5 @@ We've used **high-quality images from Unsplash** to create a **professional look
 
 ### 🔗 View the Careers Page  
 Open a browser and navigate to:  
-👉 **[http://localhost:3000](http://localhost:3000)**  
+Local Server: 👉 **[http://localhost:3000](http://localhost:3000)**  
+Deployed: 👉 **[https://torai-careers-page-demo.vercel.app/](https://torai-careers-page-demo.vercel.app/))**  
