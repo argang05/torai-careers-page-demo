@@ -57,7 +57,7 @@ export default function Footer() {
         }}
       />
             {/* Content overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#02040F] to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#000000] to-transparent" />
 
       {/* Footer Content */}
       <div className="relative container mx-auto px-4 py-12">

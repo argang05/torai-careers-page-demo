@@ -15,30 +15,30 @@ export default function LocationsSection() {
       id: "bangalore",
       name: "Bangalore",
       image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      description: "Our largest R&D center outside the US, the Bangalore office is home to teams across all Salesforce clouds.",
-      address: "Bagmane Tech Park, CV Raman Nagar, Bangalore"
+      description: "Our largest R&D center, the Bangalore office is home to teams across all Salesforce clouds.",
+      address: "No. 759, 3rd Floor, Sree Gururaya Mansion, 8th Main Road, J.P. Nagar 3rd Phase, Bangalore 560078"
     },
     {
-      id: "hyderabad",
-      name: "Hyderabad",
-      image: "https://images.unsplash.com/photo-1551161242-b5af797b7233?q=80&w=2051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      description: "Our Hyderabad center focuses on product development, customer success, and global support functions.",
-      address: "Raheja Mindspace IT Park, HITEC City, Hyderabad"
-    },
-    {
-      id: "mumbai",
-      name: "Mumbai",
-      image: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?q=80&w=2065&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      description: "Our Mumbai office houses sales, marketing, and customer success teams serving the western region.",
-      address: "Lotus Corporate Park, Goregaon East, Mumbai"
+      id: "pune",
+      name: "Pune",
+      image: "https://images.unsplash.com/photo-1570356811230-2f3b816ebb29?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      description: "Our Pune office houses sales, marketing, and customer success teams serving the western region.",
+      address: "S. No. 52 & 53, 4th floor, M-Connect, Pune-Bangalore Highway, Bavdhan, Pune 411021, Maharashtra, India"
     },
     {
       id: "delhi",
-      name: "Delhi",
+      name: "Delhi NCR",
       image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       description: "Our Delhi office serves as a hub for sales and customer success teams in the northern region.",
-      address: "DLF Cyber City, Gurugram, Delhi NCR"
-    }
+      address: "117 , DLF CORPORATE GREENS, TOWER-2, Flyover, next to Cloverleaf, Sector 74A, Gurugram, Haryana 122004"
+    },
+    {
+      id: "dubai",
+      name: "Dubai",
+      image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      description: "Our Dubai center focuses on product development, customer success, and global support functions.",
+      address: "TOR AI FZCO, A1 - IFZA Business Park, Dubai Digital Park, Premises No. 41953 - 001, P.O. Box 4333, Dubai Silicon Oasis, Dubai - UAE"
+    },
   ];
 
   // Animation variants for cards
@@ -65,10 +65,10 @@ export default function LocationsSection() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-            Our Locations in India
+            Our Locations in India and Abroad
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover our vibrant offices across India where innovation happens every day
+            Discover our vibrant offices across India and Abroad where innovation happens every day
           </p>
         </motion.div>
 
