@@ -21,24 +21,24 @@ export default function LifeAtTor() {
       image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       description: "We're constantly pushing the boundaries of what's possible with cloud technology, AI, and customer experience. Join us to work on cutting-edge solutions."
     },
-    {
-      id: "giving-back",
-      title: "Giving Back",
-      image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      description: "Our 1-1-1 model dedicates 1% of our equity, time, and product to help communities around the world. Employees get 7 paid volunteer days annually."
-    },
+    // {
+    //   id: "giving-back",
+    //   title: "Giving Back",
+    //   image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    //   description: "Our 1-1-1 model dedicates 1% of our equity, time, and product to help communities around the world. Employees get 7 paid volunteer days annually."
+    // },
     {
       id: "growth",
       title: "Growth & Learning",
       image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       description: "We invest in your growth with continuous learning opportunities, mentorship programs, and clear career paths to help you reach your full potential."
     },
-    {
-      id: "wellbeing",
-      title: "Wellbeing",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      description: "Your wellbeing matters. We offer programs to support your physical, mental, and emotional health, including mindfulness sessions and wellness benefits."
-    }
+    // {
+    //   id: "wellbeing",
+    //   title: "Well Being",
+    //   image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    //   description: "Your well being matters. We offer programs to support your physical, mental, and emotional health, including mindfulness sessions and wellness benefits."
+    // }
   ];
 
   return (
