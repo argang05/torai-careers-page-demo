@@ -18,7 +18,7 @@ export default function JobsSection() {
     { id: "job2", title: "Associate Product Manager", location: "Pune", department: "Product", type: "Full-time", posted: "1 week ago" },
     { id: "job3", title: "Graduate Engineer Trainee", location: "Pune", department: "Engineering", type: "Full-time", posted: "3 days ago" },
     { id: "job4", title: "Program Manager", location: "Pune", department: "Engineering", type: "Full-time", posted: "Just now" },
-    { id: "job5", title: "Customer Support Executive", location: "Pune", department: "Customer Success", type: "Full-time", posted: "5 days ago" },
+    { id: "job5", title: "Customer Support Executive", location: "Pune", department: "Strategic Partnership", type: "Full-time", posted: "5 days ago" },
     { id: "job6", title: "Embedded Developer", location: "Pune", department: "Engineering", type: "Full-time", posted: "1 week ago" }
   ];
 
@@ -32,7 +32,7 @@ export default function JobsSection() {
                       (selectedTab === "product" && (job.department === "Product" || job.department === "Design")) ||
                       (selectedTab === "engineering" && job.department === "Engineering") ||
                       (selectedTab === "sales" && job.department === "Sales") ||
-                      (selectedTab === "customer" && job.department === "Customer Success");
+                      (selectedTab === "customer" && job.department === "Strategic Partnership");
 
     return matchesSearch && matchesTab;
   });
@@ -77,7 +77,7 @@ export default function JobsSection() {
               <TabsTrigger value="engineering" className="flex-shrink-0 px-4 py-2">Engineering</TabsTrigger>
               <TabsTrigger value="sales" className="flex-shrink-0 px-4 py-2">Sales</TabsTrigger>
               <TabsTrigger value="product" className="flex-shrink-0 px-4 py-2">Product & Design</TabsTrigger>
-              <TabsTrigger value="customer" className="flex-shrink-0 px-4 py-2">Customer Success</TabsTrigger>
+              <TabsTrigger value="customer" className="flex-shrink-0 px-4 py-2">Strategic Partnership</TabsTrigger>
             </div>
           </TabsList>
 

@@ -31,7 +31,7 @@ export default function HeroSection() {
             Join Tor India
           </h1>
           <p className="text-xl md:text-2xl mb-8">
-            Be part of a team that&apos;s changing the way the world does business
+            Be part of a team that&apos;s changing the way the world does IoT Automation
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button className="bg-[#FF5733] hover:bg-[#ff583392] text-white px-8 py-6 text-lg cursor-pointer">
