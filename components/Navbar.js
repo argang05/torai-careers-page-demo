@@ -45,7 +45,7 @@ export default function Navbar() {
                 key={link.name}
                 href={link.href}
               >
-                <span className="text-[#F5F5F5] hover:text-[#F6490D] transition-colors duration-200 font-bold text-lg">{link.name}</span>
+                <span className="text-[#F5F5F5] hover:text-[#F6490D] transition-colors duration-200 font-bold text-[17px]">{link.name}</span>
               </Link>
             ))}
             <Link href="#jobs">
