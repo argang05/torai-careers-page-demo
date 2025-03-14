@@ -14,7 +14,7 @@ export default function TestimonialsSection() {
       id: "testimonial1",
       quote: "Working at Tor has been the most rewarding experience of my career. The culture of innovation, the focus on customer success, and the opportunities for growth are unparalleled.",
       name: "Rutuja Utagikar",
-      title: "Senior Manager (Finance & Legal Department)",
+      title: "Senior Manager",
       location: "Pune",
       image: "/testimonial-pic-1.jpeg"
     },
@@ -22,7 +22,7 @@ export default function TestimonialsSection() {
       id: "testimonial2",
       quote: "The best thing about Tor is the people. I'm surrounded by brilliant minds who challenge me to grow every day. The company truly lives its values of trust, customer success, innovation, and equality.",
       name: "MD Saddam",
-      title: "Assistant Vice President (Product Management)",
+      title: "Assistant Vice President",
       location: "Pune",
       image: "/testimonial-pic-2.jpg"
     },
