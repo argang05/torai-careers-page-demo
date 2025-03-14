@@ -13,7 +13,7 @@ export default function TestimonialsSection() {
     {
       id: "testimonial1",
       quote: "Working at Tor has been the most rewarding experience of my career. The culture of innovation, the focus on customer success, and the opportunities for growth are unparalleled.",
-      name: "Rutuja Mohan Utagikar",
+      name: "Rutuja Utagikar",
       title: "Senior Manager (Finance & Legal Department)",
       location: "Pune",
       image: "/testimonial-pic-1.jpeg"
@@ -21,7 +21,7 @@ export default function TestimonialsSection() {
     {
       id: "testimonial2",
       quote: "The best thing about Tor is the people. I'm surrounded by brilliant minds who challenge me to grow every day. The company truly lives its values of trust, customer success, innovation, and equality.",
-      name: "Saddam Mohammed MD Sakur",
+      name: "MD Saddam",
       title: "Assistant Vice President (Product Management)",
       location: "Pune",
       image: "/testimonial-pic-2.jpg"
@@ -29,7 +29,7 @@ export default function TestimonialsSection() {
     {
       id: "testimonial3",
       quote: "Tor has given me the opportunity to work on cutting-edge technology while making a positive impact on our customers and communities. The benefits are amazing too!",
-      name: "Samruddhi Deven Bora",
+      name: "Samruddhi Bora",
       title: "Associate Product Manager",
       location: "Pune",
       image: "/testimonial-pic-3_1.jpg"
@@ -65,8 +65,8 @@ export default function TestimonialsSection() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.2, duration: 0.5 }}
               >
-                <Card className="h-full hover:shadow-lg transition-shadow duration-300">
-                  <CardContent className="p-6">
+                <Card className="h-full flex flex-col hover:shadow-lg transition-shadow duration-300">
+                  <CardContent className="p-6 flex flex-col flex-grow">
                     <div className="flex justify-center mb-6">
                       <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-[#0D1D45]">
                         <img 
@@ -79,10 +79,11 @@ export default function TestimonialsSection() {
                     <div className="flex justify-center mb-4 text-[#FF5733]">
                       <Quote className="h-8 w-8" />
                     </div>
-                    <p className="text-gray-600 mb-6 text-center italic">
+                    <p className="text-gray-600 mb-6 text-center italic flex-grow">
                       &quot;{testimonial.quote}&quot;
                     </p>
-                    <div className="text-center">
+                    {/* Name, Title, and Location fixed at bottom */}
+                    <div className="mt-auto text-center">
                       <h3 className="text-lg font-bold text-gray-900">{testimonial.name}</h3>
                       <p className="text-gray-500">{testimonial.title}</p>
                       <p className="text-gray-500">{testimonial.location}</p>
@@ -93,6 +94,7 @@ export default function TestimonialsSection() {
             ))}
           </div>
         </div>
+
 
         {/* Mobile view - Carousel */}
         <div className="md:hidden">

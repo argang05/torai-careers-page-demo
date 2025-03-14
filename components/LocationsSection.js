@@ -15,7 +15,7 @@ export default function LocationsSection() {
       id: "bangalore",
       name: "Bangalore",
       image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      description: "Strategically situated in Bangalore, our sales and customer success teams act as a central point of contact for the southern region.",
+      description: "Bangalore serves the southern region for sales and customer success.",
       address: "No. 759, 3rd Floor, Sree Gururaya Mansion, 8th Main Road, J.P. Nagar 3rd Phase, Bangalore 560078"
     },
     {

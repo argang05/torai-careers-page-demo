@@ -26,14 +26,16 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#02040F] shadow-sm">
-      <div className="container mx-auto px-4 py-3">
+    <nav className="sticky top-0 h-[62px] z-50 bg-[#02040F] shadow-sm">
+      <div className="container mx-auto px-[26px] py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center ">
-            <Image src="/tor_logo.png" width={60} height={60} alt="logo"/>
+          <Link href="/">
+            <div className="flex items-center">
+            <Image src="/tor_logo.png" width={70} height={70} alt="logo"/>
             {/* <span className="text-2xl text-[#F5F5F5] font-bold">Tor</span> */}
-            <span className="ml-2 text-lg text-[#F5F5F5] font-medium">Careers</span>
+            <span className="ml-2 text-xl text-[#F5F5F5] font-medium">Careers</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -43,12 +45,11 @@ export default function Navbar() {
                 key={link.name}
                 href={link.href}
               >
-                <span className="text-[#F5F5F5] hover:text-[#F6490D] transition-colors duration-200 font-bold">{link.name}</span>
-                
+                <span className="text-[#F5F5F5] hover:text-[#F6490D] transition-colors duration-200 font-bold text-lg">{link.name}</span>
               </Link>
             ))}
             <Link href="#jobs">
-            <Button className="bg-[#FF5733] hover:bg-[#ff583392] cursor-pointer">
+            <Button className="bg-[#FF5733] hover:bg-[#ff583392] cursor-pointer text-lg">
               Search Jobs
             </Button>
             </Link>
