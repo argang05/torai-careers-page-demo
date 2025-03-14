@@ -13,26 +13,26 @@ export default function TestimonialsSection() {
     {
       id: "testimonial1",
       quote: "Working at Tor has been the most rewarding experience of my career. The culture of innovation, the focus on customer success, and the opportunities for growth are unparalleled.",
-      name: "Priya Sharma",
-      title: "Senior Software Engineer",
-      location: "Bangalore",
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      name: "Rutuja Mohan Utagikar",
+      title: "Senior Manager (Finance & Legal Department)",
+      location: "Pune",
+      image: "/testimonial-pic-1.jpeg"
     },
     {
       id: "testimonial2",
-      quote: "The best thing about Tor is the people. I&apos;m surrounded by brilliant minds who challenge me to grow every day. The company truly lives its values of trust, customer success, innovation, and equality.",
-      name: "Rahul Patel",
-      title: "Product Manager",
-      location: "Hyderabad",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      quote: "The best thing about Tor is the people. I'm surrounded by brilliant minds who challenge me to grow every day. The company truly lives its values of trust, customer success, innovation, and equality.",
+      name: "Saddam Mohammed MD Sakur",
+      title: "Assistant Vice President (Product Management)",
+      location: "Pune",
+      image: "/testimonial-pic-2.jpg"
     },
     {
       id: "testimonial3",
-      quote: "Tor has given me the opportunity to work on cutting-edge technology while making a positive impact on our customers and communities. The work-life balance and benefits are amazing too!",
-      name: "Ananya Desai",
-      title: "Solution Architect",
-      location: "Mumbai",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=2961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      quote: "Tor has given me the opportunity to work on cutting-edge technology while making a positive impact on our customers and communities. The benefits are amazing too!",
+      name: "Samruddhi Deven Bora",
+      title: "Associate Product Manager",
+      location: "Pune",
+      image: "/testimonial-pic-3_1.jpg"
     }
   ];
 

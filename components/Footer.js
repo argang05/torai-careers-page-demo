@@ -23,7 +23,7 @@ export default function Footer() {
         { name: "Our Locations", href: "#locations" },
         { name: "Life at Tor", href: "#life" },
         { name: "Benefits", href: "#benefits" },
-        { name: "University Recruiting", href: "#" },
+        { name: "Campus Recruitment", href: "#" },
       ],
     },
     {

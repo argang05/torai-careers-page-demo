@@ -14,12 +14,12 @@ export default function JobsSection() {
 
   // Sample job data
   const jobs = [
-    { id: "job1", title: "Senior Software Engineer", location: "Bangalore", department: "Engineering", type: "Full-time", posted: "2 days ago" },
-    { id: "job2", title: "Product Manager", location: "Hyderabad", department: "Product", type: "Full-time", posted: "1 week ago" },
-    { id: "job3", title: "UX Designer", location: "Bangalore", department: "Design", type: "Full-time", posted: "3 days ago" },
-    { id: "job4", title: "Technical Architect", location: "Mumbai", department: "Engineering", type: "Full-time", posted: "Just now" },
-    { id: "job5", title: "Sales Development Representative", location: "Delhi", department: "Sales", type: "Full-time", posted: "5 days ago" },
-    { id: "job6", title: "Customer Success Manager", location: "Hyderabad", department: "Customer Success", type: "Full-time", posted: "1 week ago" }
+    { id: "job1", title: "Area Sales Manager", location: "Pune", department: "Sales", type: "Full-time", posted: "2 days ago" },
+    { id: "job2", title: "Associate Product Manager", location: "Pune", department: "Product", type: "Full-time", posted: "1 week ago" },
+    { id: "job3", title: "Graduate Engineer Trainee", location: "Pune", department: "Engineering", type: "Full-time", posted: "3 days ago" },
+    { id: "job4", title: "Program Manager", location: "Pune", department: "Engineering", type: "Full-time", posted: "Just now" },
+    { id: "job5", title: "Customer Support Executive", location: "Pune", department: "Customer Success", type: "Full-time", posted: "5 days ago" },
+    { id: "job6", title: "Embedded Developer", location: "Pune", department: "Engineering", type: "Full-time", posted: "1 week ago" }
   ];
 
   // Function to filter jobs based on search term and selected department

@@ -26,24 +26,24 @@ export default function BenefitsSection() {
       description: "Continuous learning opportunities through Trailhead, tuition reimbursement, and professional development programs.",
       icon: <BookOpen className="h-10 w-10 text-[#FF5733]" />
     },
-    {
-      id: "time-off",
-      title: "Time Off",
-      description: "Generous paid time off, holidays, and volunteer time off (VTO) to give back to your community.",
-      icon: <Clock className="h-10 w-10 text-[#FF5733]" />
-    },
-    {
-      id: "work-life",
-      title: "Work-Life Balance",
-      description: "Flexible work arrangements, parental leave, and programs to support your work-life integration.",
-      icon: <Briefcase className="h-10 w-10 text-[#FF5733]" />
-    },
-    {
-      id: "perks",
-      title: "Perks & Discounts",
-      description: "Employee discounts, transportation benefits, and special perks to enhance your everyday life.",
-      icon: <Smile className="h-10 w-10 text-[#FF5733]" />
-    }
+    // {
+    //   id: "time-off",
+    //   title: "Time Off",
+    //   description: "Generous paid time off, holidays, and volunteer time off (VTO) to give back to your community.",
+    //   icon: <Clock className="h-10 w-10 text-[#FF5733]" />
+    // },
+    // {
+    //   id: "work-life",
+    //   title: "Work-Life Balance",
+    //   description: "Flexible work arrangements, parental leave, and programs to support your work-life integration.",
+    //   icon: <Briefcase className="h-10 w-10 text-[#FF5733]" />
+    // },
+    // {
+    //   id: "perks",
+    //   title: "Perks & Discounts",
+    //   description: "Employee discounts, transportation benefits, and special perks to enhance your everyday life.",
+    //   icon: <Smile className="h-10 w-10 text-[#FF5733]" />
+    // }
   ];
 
   // Animation variants for cards
@@ -70,7 +70,7 @@ export default function BenefitsSection() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-            Benefits & Perks
+            Benefits
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We take care of our employees so they can focus on taking care of our customers

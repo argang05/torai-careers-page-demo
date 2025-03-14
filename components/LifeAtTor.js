@@ -19,7 +19,7 @@ export default function LifeAtTor() {
       id: "innovation",
       title: "Innovation",
       image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      description: "We&apos;re constantly pushing the boundaries of what&apos;s possible with cloud technology, AI, and customer experience. Join us to work on cutting-edge solutions."
+      description: "We're constantly pushing the boundaries of what's possible with cloud technology, AI, and customer experience. Join us to work on cutting-edge solutions."
     },
     {
       id: "giving-back",

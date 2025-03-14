@@ -15,14 +15,14 @@ export default function LocationsSection() {
       id: "bangalore",
       name: "Bangalore",
       image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      description: "Our largest R&D center, the Bangalore office is home to teams across all Salesforce clouds.",
+      description: "Strategically situated in Bangalore, our sales and customer success teams act as a central point of contact for the southern region.",
       address: "No. 759, 3rd Floor, Sree Gururaya Mansion, 8th Main Road, J.P. Nagar 3rd Phase, Bangalore 560078"
     },
     {
       id: "pune",
       name: "Pune",
       image: "https://images.unsplash.com/photo-1570356811230-2f3b816ebb29?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      description: "Our Pune office houses sales, marketing, and customer success teams serving the western region.",
+      description: "Tor.ai's headquarters, serves as the central hub for our core operations.",
       address: "S. No. 52 & 53, 4th floor, M-Connect, Pune-Bangalore Highway, Bavdhan, Pune 411021, Maharashtra, India"
     },
     {
@@ -36,7 +36,7 @@ export default function LocationsSection() {
       id: "dubai",
       name: "Dubai",
       image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      description: "Our Dubai center focuses on product development, customer success, and global support functions.",
+      description: "Dubai serves as Tor.ai's international sales hub.",
       address: "TOR AI FZCO, A1 - IFZA Business Park, Dubai Digital Park, Premises No. 41953 - 001, P.O. Box 4333, Dubai Silicon Oasis, Dubai - UAE"
     },
   ];
@@ -73,36 +73,41 @@ export default function LocationsSection() {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {indiaLocations.map((location, index) => (
-            <motion.div
-              key={location.id}
-              custom={index}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              variants={cardVariants}
-            >
-              <Card className="overflow-hidden h-full hover:shadow-lg transition-shadow duration-300">
-                <div className="h-48 overflow-hidden">
-                  <img 
-                    src={location.image} 
-                    alt={location.name} 
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
-                  />
-                </div>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2 text-gray-900">{location.name}</h3>
-                  <p className="text-gray-600 mb-4">{location.description}</p>
-                  <div className="flex items-start gap-2 text-gray-500 mb-4">
-                    <MapPin className="h-5 w-5 mt-0.5 flex-shrink-0" />
-                    <span>{location.address}</span>
-                  </div>
-                  <Button variant="outline" className="w-full bg-[#FF5733] hover:bg-[#ff5833b9] cursor-pointer text-[#F5F5F5] hover:text-[#F5F5F5]">View Jobs</Button>
-                </CardContent>
-              </Card>
-            </motion.div>
-          ))}
+  {indiaLocations.map((location, index) => (
+    <motion.div
+      key={location.id}
+      custom={index}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      variants={cardVariants}
+    >
+      <Card className="overflow-hidden h-full flex flex-col hover:shadow-lg transition-shadow duration-300">
+        <div className="h-48 overflow-hidden">
+          <img 
+            src={location.image} 
+            alt={location.name} 
+            className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          />
         </div>
+        <CardContent className="p-6 flex flex-col flex-grow">
+          <h3 className="text-xl font-bold mb-2 text-gray-900">{location.name}</h3>
+          <p className="text-gray-600 mb-4">{location.description}</p>
+          <div className="flex items-start gap-2 text-gray-500 mb-4">
+            <MapPin className="h-5 w-5 mt-0.5 flex-shrink-0" />
+            <span>{location.address}</span>
+          </div>
+          <div className="mt-auto">
+            <Button variant="outline" className="w-full bg-[#FF5733] hover:bg-[#ff5833b9] cursor-pointer text-[#F5F5F5] hover:text-[#F5F5F5]">
+              View Jobs
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
+    </motion.div>
+  ))}
+</div>
+
       </div>
     </section>
   );
