@@ -21,7 +21,7 @@ export default function Navbar() {
     { name: "Our Locations", href: "#locations" },
     { name: "Life at Tor", href: "#life" },
     { name: "Benefits", href: "#benefits" },
-    { name: "Diversity & Inclusion", href: "#diversity" },
+    { name: "Our Reach", href: "#our-reach" },
     // { name: "Jobs", href: "#jobs" },
   ];
 
