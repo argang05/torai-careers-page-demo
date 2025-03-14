@@ -49,7 +49,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link href="#jobs">
-            <Button className="bg-[#FF5733] hover:bg-[#ff583392] cursor-pointer text-lg">
+            <Button className="bg-[#FF5733] hover:bg-[#ff583392] cursor-pointer text-[17px]">
               Search Jobs
             </Button>
             </Link>
